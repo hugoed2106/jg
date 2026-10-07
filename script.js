@@ -91,7 +91,7 @@ let content = `
     `;
 
 // Mostrar el mismo contenido de la página sin importar el tamaño de la pantalla
-function viewScreen() {
+(function viewScreen() {
     desk.innerHTML = content;
     mobile.innerHTML = content;
-}
+})();
