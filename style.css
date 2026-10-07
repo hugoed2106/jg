@@ -1,3 +1,12 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     margin: 20px 0;
     padding: 0;
@@ -7,15 +16,20 @@ body {
     justify-content: center;
 }
 
-.jg {
+.jg-desk {
     background-color: #000;
     padding: 0px 0px 20px 0px;
-    width: 580px;
+    width: 100%;
+    max-width: 580px;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 1px solid #434343;
+}
+
+.jg-mobile {
+    display: none;
 }
 
 .profile {
@@ -120,9 +134,17 @@ body {
         margin: 0;
         padding: 0;
     }
-    .jg {
+    .jg-desk {
+        display: none;
+    }
+    .jg-mobile {
+        display: flex;
+        background-color: #000;
+        padding: 0px 0px 20px 0px;
         width: 100%;
-        border-radius: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         border: none;
     }
     .links a .image {
