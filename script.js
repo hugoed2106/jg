@@ -87,15 +87,6 @@ let content = `
                     <p class="user">@jg</p>
                 </div>
             </a>
-            <a href="https://hugoed2106.github.io/my-princess/" target="_blank">
-                <div class="image">
-                    <img src="images/poemas_preview.png" alt="Poemas">
-                </div>
-                <div class="text">
-                    <p class="red">Daiana</p>
-                    <p class="user">DL2312*</p>
-                </div>
-            </a>
         </section>
     `;
 // Mostrar el mismo contenido de la página sin importar el tamaño de la pantalla
